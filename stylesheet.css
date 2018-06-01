@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Oswald');
+
+* {
+	font-family: 'Oswald', sans-serif;
+
+}
+body {
+	background: url('https://i.imgur.com/mwI3xKe.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited { 
+	color: white; 
+}
+.container {
+	width: 60vw;
+	background: #214;
+ 	color: white; 
+ 	border-radius: 1.5em; 
+ 	padding: 1em; 
+ 	position: relative; 
+ 	left: 50%;
+  	margin-right: -50%;
+ 	transform: translate(-50%, 9%) ; 
+ 	opacity: .96;
+}
+
+.container * {
+	text-align: center;
+    margin: 0 auto;
+    width: 100%;
+font-family: 'Oswald', sans-serif;
+
+}
+#filtersubmit {
+    position: relative;
+    z-index: 1;
+    left: 44%;
+    top: -30px;
+    cursor: pointer;
+    width: 0;
+}
+
+#channel_msg {
+	z-index: 1;
+	width: 30vw;
+	height: auto;
+	background: #214;
+    color: white;
+    border-radius: .5em;
+    padding: 1em;
+    position: relative;
+	margin : 0 auto 1em auto;
+	display: -webkit-box;      /* For old iOS 6, Safari 3.1-6 */
+ 	display: -moz-box;         /* For old Firefox 19 */
+ 	display: -ms-flexbox;      /* For - IE 10 */
+ 	display: -webkit-flex;     /* For - Chrome */
+ 	display: flex;             /* For IE 11, Spec - Opera 12.1, Firefox 20+ */
+	flex-direction: column;
+	justify-content:space-between;
+	align-items: center;
+	opacity: .86;
+	font-size: 3vh;	
+}
+
+#channel_msg a:hover {
+	text-decoration: underline;
+}
+
+.channel:hover {
+ 	border: 1px solid white;
+}
+
+.channel {
+	z-index: 1;
+	width: 60vw;
+	height: auto;
+	background: #214;
+    color: white;
+    border-radius: .5em;
+    padding: 1em;
+    position: relative;
+	margin : 0 auto 1em auto;
+	display: -webkit-box;      /* For old iOS 6, Safari 3.1-6 */
+ 	display: -moz-box;         /* For old Firefox 19 */
+ 	display: -ms-flexbox;      /* For - IE 10 */
+ 	display: -webkit-flex;     /* For - Chrome */
+ 	display: flex;             /* For IE 11, Spec - Opera 12.1, Firefox 20+ */
+	flex-direction: column;
+	justify-content:space-between;
+	align-items: right;
+	opacity: .86;
+	font-size: 2.1vh;
+}
+
+
+
+.twitch_img{
+	border-radius: 9em;
+    float: left;
+    height: 20vh;
+    margin-right: 20px;
+}
